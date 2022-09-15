@@ -1,0 +1,47 @@
+body {
+       margin: 0;
+       display: flex;
+       flex-direction: column;
+       font-family: 'Tahoma';
+}
+
+.gora {
+       display: flex;
+       flex-direction: row;
+}
+
+.blok-lewy,
+.blok-prawy {
+       background-color: rosybrown;
+       color: white;
+       width: 30%;
+       height: 200px;
+}
+
+.blok-srodkowy {
+       background-color: rosybrown;
+       color: white;
+       width: 40%;
+       height: 200px;
+       text-align: center;
+}
+
+.blok-glowny {
+       background-color: wheat;
+       padding: 50px;
+}
+
+.stopka {
+       background-color: rosybrown;
+       color: white;
+       padding: 5px;
+       text-align: center;
+}
+
+a {
+       border: solid 2px darkred;
+       background-color: salmon;
+       color: darkred;
+       padding: 20px;
+       line-height: 200px;
+}
